@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Eshop</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="Style.css">
+
+</head>
+
+
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div class="navbar">
+  <a href="Eshop.html">Home</a>
+  <a href="#news">Login</a>
+  <a href="#contact">Register</a>
+
+  <div class="shopping-cart">
+
+      <div class="shopping-cart-head">
+         
+        <span class="product-quantity" id="Productq" >0 </span> Product(s) in Cart
+       
+      </div>
+
+      
+     <!-- <ul class="shopping-cart-list">
+      </ul>-->
+
+</div>
+
+<div class="cart-buttons">
+        <a  class="button empty-cart-btn" id="empty" >Empty</a>
+        <a href="#0" class="button cart-checkout" >Checkout - <span class="total-price" id="Checkout">$0</span></a>
+      </div>
+
+    </div><!-- Navbar -->
+ 
+
+
+<div class="hero-image">
+
+  <div class="hero-text">
+    <h1 style="font-size:50px">Apple Products</h1>
+    <h3 style="font-size:30px;">Black Friday</h3>
+   <div class="findmore" button><b>Find Out More</b></button></div>
+  </div>
+ 
+</div>
+
+
+
+
+
+  <div class="parallax" style="height:1000px; font-size:20px">
+    <div class="column">
+<div class="container">
+	<a href="PowerBank_Menu.html" >
+  <img src="power-bank.png" alt="Avatar" width="300" height="300"  class="image">
+  </a>
+  <p style=" padding: 0px 0px 0px 110px;"> <b>Power Banks</b></p>
+</div>
+
+
+   </div>
+
+       <div class="column">
+<div class="container">
+	<a href="Speaker_Menu.html" >
+  <img src="Robot.jpg" alt="Avatar" width="300" height="300"  class="image">
+	</a>
+</div>
+<p style=" padding: 0px 0px 0px 110px;"> <b>Speaker</b></p>
+   </div>
+
+
+       <div class="column">
+<div class="container">
+	<a href="Lights_Menu.html" >
+  <img src="Led-light.png" alt="Avatar" width="300" height="300"  class="image">
+  	</a>
+</div>
+<p style=" padding: 0px 0px 0px 110px;"> <b>Lights</b></p>
+   </div>
+
+          <div class="column">
+<div class="container">
+	<a href="Headphones_Menu.html" >
+  <img src="headphones.png" alt="Avatar" width="300" height="300"  class="image">
+	</a>
+  <!--<div class="middle">
+       <div class="h_link"> <a href="Headphones_Menu.html" >See More</a></div>
+  </div>-->
+</div>
+<p style=" padding: 0px 0px 15px 110px;"> <b>Airpods</b></p>
+   </div>
+
+             <div class="column">
+<div class="container">
+	<a href="Cable_Menu.html" >
+  <img src="Cable.jpg" alt="Avatar" width="300" height="300"  class="image">
+</a>
+</div>
+<p style=" padding: 0px 0px 15px 80px;" > <b>Fast Data Cable</b></p>
+   </div>
+
+             <div class="column">
+<div class="container">
+	<a href="Cases_Menu.html" >
+  <img src="s9.png" alt="Avatar" width="300" height="300"  class="image">
+ 		</a>
+</div>
+<p style=" padding: 0px 0px 15px 55px;"> <b>Samsung Galaxy S9</b></p>
+   </div>
+
+
+
+              </div>
+
+
+
+
+<script type="text/javascript">
+if(sessionStorage.getItem("check")== null ){
+  document.getElementById("Checkout").innerHTML = 0+"$";
+    document.getElementById("Productq").innerHTML = 0;
+}else{
+document.getElementById("Checkout").innerHTML = sessionStorage.getItem("check") +"$";
+  document.getElementById("Productq").innerHTML = sessionStorage.getItem("NumP");
+}
+
+//DELETE CHECKOUT
+document.getElementById("empty").addEventListener("click", function(){
+if(sessionStorage.getItem("check")!= null ){
+      //var empty = parseInt(sessionStorage.setItem("check",checkout ) /Productq);
+
+      //document.write(empty);
+    document.getElementById("Checkout").innerHTML = 0 +"$";
+       document.getElementById("Productq").innerHTML = 0 ;
+     sessionStorage.clear();
+                              }
+
+                                                                      });
+
+</script>
+</body>
+
+
+</html>
