@@ -1,10 +1,14 @@
 # Ecommerce-website
-![Test Image 1](https://github.com/Tsouko/Ecommerce-website/blob/master/Ecommerce%20shop/website.png)\\
-
+![Test Image 1](https://github.com/Tsouko/Ecommerce-website/blob/master/Ecommerce%20shop/website.png)\
+\
 
 
 # Products-Categories
-![Test Image 2](https://github.com/Tsouko/Ecommerce-website/blob/master/Ecommerce%20shop/website_choose2.png)\\
+![Test Image 2](https://github.com/Tsouko/Ecommerce-website/blob/master/Ecommerce%20shop/website_choose2.png)\
+\
+\
+\
+\
 
 
 
