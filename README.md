@@ -1,2 +1,2 @@
 # Ecommerce-website
-![Test Image 1](website.png)
+![Test Image 1](master/website.png)
