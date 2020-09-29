@@ -13,8 +13,8 @@
 
 <div class="navbar">
   <a href="Eshop.html">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
+  <a href="#news">Login</a>
+  <a href="#contact">Register</a>
 
   <div class="shopping-cart">
 
@@ -110,6 +110,14 @@ document.getElementById("myImage").src = "s9.png";
 document.getElementById("typep").innerHTML = "Cable Fast Data";
  var checkout =parseInt(document.getElementById("price").innerHTML = "20$");
 document.getElementById("myImage").src = "Cable.jpg";
+
+}
+else if (code == "power_bank1"){
+  document.getElementById("Info").innerHTML = '<li><b>Χωρητικότητα: 10000mah"</li><br> <li>Πλήθος Θυρών USB  2</li><br> <li>USB-C: Όχι</li><br> <li>Έντασης Ρεύματος Κύριας Θύρας: 2,4A</li><br> <li>Χρώμα: Ασημί</li></b>';
+ document.getElementById("describe").innerHTML ="Το Xiaomi Mi Powerbank 10000mAh 2S,<br> διαθέτει τεχνολογία ταχείας φόρτισης και είναι συμβατό με smartphones,<br> tablets καθώς και με μια ποικιλία από ψηφιακές κάμερες και φορητές συσκευές.";
+document.getElementById("typep").innerHTML = "Xiaomi Mi Power Bank 10000mAh Ασημί";
+ var checkout =parseInt(document.getElementById("price").innerHTML = "20$");
+document.getElementById("myImage").src = "power-bank.png";
 
 }
 
